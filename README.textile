@@ -1,0 +1,11 @@
+h1. Who I Block? (on Twitter)
+
+This is a simple Rails app that uses Twitter's API & OAuth to show you who you block on Twitter. 
+
+This app is super simple (1 controller, 3 methods) and I probably should've used Sinatra to create it, but - I had the same app created in PHP few months ago and decided to port it to Rails, as a study exercise. 
+
+h2. Thanks
+
+"John Nunemaker":http://github.com/jnunemaker for the "Twitter Gem":http://github.com/jnunemaker/twitter
+
+"Ryan Bates":http://github.com/ryanb for "Nifty-Generators":http://github.com/ryanb/nifty-generators
