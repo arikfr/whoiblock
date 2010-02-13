@@ -32,6 +32,6 @@ class IndexController < ApplicationController
 
   private
     def set_oauth
-      @oauth = Twitter::OAuth.new('1QDP0tuZDX50pwXWHl9u2w', 'QljFqIp6QBwqCAax1sYoH5IQ60VkPSrTvhZaoi5ZRs')
+      @oauth = Twitter::OAuth.new(App.oauth.token, App.oauth.secret)
     end
 end
