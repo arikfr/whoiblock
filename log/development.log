@@ -1,0 +1,566 @@
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:33:24) [GET]
+
+ActionView::MissingTemplate (Missing template index/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:33:41) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 96ms (View: 86, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:36:13) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 129ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:37:03) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:37:24) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 27ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:37:36) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:37:42) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:38:00) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 27ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:38:05) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 27ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:38:47) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 27ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:38:57) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 28ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 12:39:00) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 12:39:08) [GET]
+Rendering template within layouts/application
+Rendering index/auth
+Completed in 33ms (View: 23, DB: 0) | 200 OK [http://localhost/index/auth]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 12:41:52) [GET]
+
+NameError (undefined local variable or method `config' for #<IndexController:0x24c4328>):
+  app/controllers/index_controller.rb:6:in `auth'
+
+Rendered rescues/_trace (110.1ms)
+Rendered rescues/_request_and_response (3.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 12:43:08) [GET]
+
+NameError (uninitialized constant IndexController::AppConfig):
+  app/controllers/index_controller.rb:6:in `auth'
+
+Rendered rescues/_trace (98.5ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 12:52:09) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=tcuou1iFiP817XhuqT7KCCm6wfcwOIDvoo7PvxDhc
+Completed in 1085ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 12:56:38) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (106.8ms)
+Rendered rescues/_request_and_response (4.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 12:57:17) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (102.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 12:59:58) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (141.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:00:48) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (102.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:01:23) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (99.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:01:24) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (97.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:01:29) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (104.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:03:02) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (100.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:05:53) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (98.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:05:55) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (101.6ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:05:56) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (100.5ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:05:56) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (112.6ms)
+Rendered rescues/_request_and_response (4.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:06:22) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (115.1ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:06:23) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (99.3ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:08:43) [GET]
+
+NoMethodError (undefined method `url_for' for nil:NilClass):
+  app/controllers/index_controller.rb:15:in `list'
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:18:30) [GET]
+Rendering template within layouts/application
+Rendering index/list
+
+ActionView::TemplateError (undefined local variable or method `link' for #<ActionView::Base:0x11fcfc4>) on line #2 of app/views/index/list.html.erb:
+1: <h1>Index#list</h1>
+2: <%=link%>
+3: <p>Find me in app/views/index/list.html.erb</p>
+
+    app/views/index/list.html.erb:2
+
+Rendered rescues/_trace (122.3ms)
+Rendered rescues/_request_and_response (3.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:18:40) [GET]
+Rendering template within layouts/application
+Rendering index/list
+Completed in 42ms (View: 32, DB: 0) | 200 OK [http://localhost/index/list]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 13:19:25) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=kE7LCktAG1wmQY8U7p74qxTsIhstjC9NVtg10NpGT0
+Completed in 615ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:19:30) [GET]
+  Parameters: {"oauth_token"=>"kE7LCktAG1wmQY8U7p74qxTsIhstjC9NVtg10NpGT0", "oauth_verifier"=>"cvXQHSez9hNR0kJpLEGrQWnH0SOFjhWuqGeX50cTqvI"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 14ms (View: 4, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=kE7LCktAG1wmQY8U7p74qxTsIhstjC9NVtg10NpGT0&oauth_verifier=cvXQHSez9hNR0kJpLEGrQWnH0SOFjhWuqGeX50cTqvI]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:21:02) [GET]
+  Parameters: {"oauth_token"=>"kE7LCktAG1wmQY8U7p74qxTsIhstjC9NVtg10NpGT0", "oauth_verifier"=>"cvXQHSez9hNR0kJpLEGrQWnH0SOFjhWuqGeX50cTqvI"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 14ms (View: 4, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=kE7LCktAG1wmQY8U7p74qxTsIhstjC9NVtg10NpGT0&oauth_verifier=cvXQHSez9hNR0kJpLEGrQWnH0SOFjhWuqGeX50cTqvI]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 13:28:53) [GET]
+
+NameError (undefined local variable or method `oauth' for #<IndexController:0x23a7ad0>):
+  app/controllers/index_controller.rb:8:in `auth'
+
+Rendered rescues/_trace (99.6ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 13:29:15) [GET]
+
+NameError (undefined local variable or method `oauth' for #<IndexController:0x25571a0>):
+  app/controllers/index_controller.rb:13:in `auth'
+
+Rendered rescues/_trace (96.9ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 13:29:36) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=A1eSX958ZvTXhk5orGHfy19zCfUH3I0pilkHOqa7TM
+Completed in 607ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:29:41) [GET]
+  Parameters: {"oauth_token"=>"A1eSX958ZvTXhk5orGHfy19zCfUH3I0pilkHOqa7TM", "oauth_verifier"=>"23M15kzDEWJ3MTdgD1LLqC0m8XCSdfKk8v9zlpZc"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 1377ms (View: 3, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=A1eSX958ZvTXhk5orGHfy19zCfUH3I0pilkHOqa7TM&oauth_verifier=23M15kzDEWJ3MTdgD1LLqC0m8XCSdfKk8v9zlpZc]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:58:27) [GET]
+  Parameters: {"oauth_token"=>"A1eSX958ZvTXhk5orGHfy19zCfUH3I0pilkHOqa7TM", "oauth_verifier"=>"23M15kzDEWJ3MTdgD1LLqC0m8XCSdfKk8v9zlpZc"}
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  twitter (0.8.4) lib/twitter/oauth.rb:39:in `authorize_from_request'
+  app/controllers/index_controller.rb:17:in `list'
+
+Rendered rescues/_trace (99.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 13:58:42) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=YmqZ0OpKhoftsHRINeeKXNU8koYrdBcrV5e9rnD4
+Completed in 685ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 13:58:46) [GET]
+  Parameters: {"oauth_token"=>"YmqZ0OpKhoftsHRINeeKXNU8koYrdBcrV5e9rnD4", "oauth_verifier"=>"Cqv6PgExBpbGQ9Ky4E3Uq0kOZJNnFMpIXvjdO4qIhdY"}
+
+NoMethodError (undefined method `block_blocking' for #<Twitter::Base:0x22fe818>):
+  app/controllers/index_controller.rb:26:in `list'
+
+Rendered rescues/_trace (96.1ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:00:19) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=NjWbFeSDzOkHa6j2NB0nSDkLd3pzz8eAGoXkPooyROw
+Completed in 885ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:00:25) [GET]
+  Parameters: {"oauth_token"=>"NjWbFeSDzOkHa6j2NB0nSDkLd3pzz8eAGoXkPooyROw", "oauth_verifier"=>"mcFTAKqPolGN5XRUbBVzi58bJkbcq9vCrAINnviIZRw"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 3479ms (View: 16, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=NjWbFeSDzOkHa6j2NB0nSDkLd3pzz8eAGoXkPooyROw&oauth_verifier=mcFTAKqPolGN5XRUbBVzi58bJkbcq9vCrAINnviIZRw]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:01:49) [GET]
+  Parameters: {"oauth_token"=>"NjWbFeSDzOkHa6j2NB0nSDkLd3pzz8eAGoXkPooyROw", "oauth_verifier"=>"mcFTAKqPolGN5XRUbBVzi58bJkbcq9vCrAINnviIZRw"}
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  twitter (0.8.4) lib/twitter/oauth.rb:39:in `authorize_from_request'
+  app/controllers/index_controller.rb:17:in `list'
+
+Rendered rescues/_trace (195.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:02:33) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=9itOQjHakcwGEE4Uo6qUHgSXlQwDnrkcZ7z3mYn3U
+Completed in 583ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:02:37) [GET]
+  Parameters: {"oauth_token"=>"9itOQjHakcwGEE4Uo6qUHgSXlQwDnrkcZ7z3mYn3U", "oauth_verifier"=>"jjJB7mRgvZ5nb1pjV7rN2nzDZGaJVLpNgxw1Hs6g"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 3726ms (View: 122, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=9itOQjHakcwGEE4Uo6qUHgSXlQwDnrkcZ7z3mYn3U&oauth_verifier=jjJB7mRgvZ5nb1pjV7rN2nzDZGaJVLpNgxw1Hs6g]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:05:10) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=Q2DYrh28CcvkpxHrFW5IsJYHwXnc9Mv4kYRLIMhEIRQ
+Completed in 1016ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:05:16) [GET]
+  Parameters: {"oauth_token"=>"Q2DYrh28CcvkpxHrFW5IsJYHwXnc9Mv4kYRLIMhEIRQ", "oauth_verifier"=>"KXaBk3RN0BI8sz4hQSpwwKYDrhbqNovc3oWvKTinjw0"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 4180ms (View: 153, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=Q2DYrh28CcvkpxHrFW5IsJYHwXnc9Mv4kYRLIMhEIRQ&oauth_verifier=KXaBk3RN0BI8sz4hQSpwwKYDrhbqNovc3oWvKTinjw0]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:06:50) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=ssgaI4V0HJ6TAfWOhSjFWYr3TumeHb1aoFRE1dv4E
+Completed in 1024ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:06:55) [GET]
+  Parameters: {"oauth_token"=>"ssgaI4V0HJ6TAfWOhSjFWYr3TumeHb1aoFRE1dv4E", "oauth_verifier"=>"JLj9XvlcTBlZV3oaRzTIq0bjRo2ZuDfksECKpq7WfQ"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 5027ms (View: 64, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=ssgaI4V0HJ6TAfWOhSjFWYr3TumeHb1aoFRE1dv4E&oauth_verifier=JLj9XvlcTBlZV3oaRzTIq0bjRo2ZuDfksECKpq7WfQ]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 14:07:27) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 26ms (View: 16, DB: 0) | 200 OK [http://localhost/index/index]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 14:08:25) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 33ms (View: 23, DB: 0) | 200 OK [http://localhost/index/index]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 14:08:53) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 29ms (View: 19, DB: 0) | 200 OK [http://localhost/index/index]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-02-13 14:09:14) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://localhost/index/index]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:09:31) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=CE5DEFly5pKehxX57XEUMRzuZPhtEUIamMB7Td47T8
+Completed in 599ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:09:34) [GET]
+  Parameters: {"oauth_token"=>"CE5DEFly5pKehxX57XEUMRzuZPhtEUIamMB7Td47T8", "oauth_verifier"=>"sVLoG56KZkDtiOtbRqenyWQgT79S8AV5avXZZMiO04M"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 3280ms (View: 60, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=CE5DEFly5pKehxX57XEUMRzuZPhtEUIamMB7Td47T8&oauth_verifier=sVLoG56KZkDtiOtbRqenyWQgT79S8AV5avXZZMiO04M]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:10:26) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=4BIdorr9nx6pJoSI49dZwDc8D9dxbBbkX1qbEVs64
+Completed in 600ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:10:29) [GET]
+  Parameters: {"oauth_token"=>"4BIdorr9nx6pJoSI49dZwDc8D9dxbBbkX1qbEVs64", "oauth_verifier"=>"klGLPB64BoOCZms3R4a1ekH3MvVBVORlKdvXpcOQ"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 3512ms (View: 64, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=4BIdorr9nx6pJoSI49dZwDc8D9dxbBbkX1qbEVs64&oauth_verifier=klGLPB64BoOCZms3R4a1ekH3MvVBVORlKdvXpcOQ]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:10:50) [GET]
+  Parameters: {"oauth_token"=>"4BIdorr9nx6pJoSI49dZwDc8D9dxbBbkX1qbEVs64", "oauth_verifier"=>"klGLPB64BoOCZms3R4a1ekH3MvVBVORlKdvXpcOQ"}
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.6) lib/oauth/consumer.rb:200:in `token_request'
+  oauth (0.3.6) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  twitter (0.8.4) lib/twitter/oauth.rb:39:in `authorize_from_request'
+  app/controllers/index_controller.rb:17:in `list'
+
+Rendered rescues/_trace (193.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:10:58) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=PaLANrkhfxGjCoQn3zvlNOcWfjF0CRJgaVmZbkqlnk
+Completed in 548ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:11:01) [GET]
+  Parameters: {"oauth_token"=>"PaLANrkhfxGjCoQn3zvlNOcWfjF0CRJgaVmZbkqlnk", "oauth_verifier"=>"rtVnTNq8heqhr2ZSfNPUS6TxPfYRKyntWz3kep8LM"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 3722ms (View: 62, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=PaLANrkhfxGjCoQn3zvlNOcWfjF0CRJgaVmZbkqlnk&oauth_verifier=rtVnTNq8heqhr2ZSfNPUS6TxPfYRKyntWz3kep8LM]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:15:21) [GET]
+  Parameters: {"oauth_token"=>"PaLANrkhfxGjCoQn3zvlNOcWfjF0CRJgaVmZbkqlnk", "oauth_verifier"=>"rtVnTNq8heqhr2ZSfNPUS6TxPfYRKyntWz3kep8LM"}
+
+NameError (undefined local variable or method `index_path' for #<IndexController:0x2389fa8>):
+  app/controllers/index_controller.rb:29:in `list'
+
+Rendered rescues/_trace (97.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:15:47) [GET]
+  Parameters: {"oauth_token"=>"PaLANrkhfxGjCoQn3zvlNOcWfjF0CRJgaVmZbkqlnk", "oauth_verifier"=>"rtVnTNq8heqhr2ZSfNPUS6TxPfYRKyntWz3kep8LM"}
+Redirected to http://localhost:3000/index/auth
+Completed in 938ms (DB: 0) | 302 Found [http://localhost/index/list?oauth_token=PaLANrkhfxGjCoQn3zvlNOcWfjF0CRJgaVmZbkqlnk&oauth_verifier=rtVnTNq8heqhr2ZSfNPUS6TxPfYRKyntWz3kep8LM]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:15:49) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=uNz3IShYNtr9lW380Zbae2qpgRwPrCpEAqGu9EfeWC0
+Completed in 740ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:18:35) [GET]
+
+NoMethodError (undefined method `authenticate_url' for #<OAuth::RequestToken:0x252eb60>):
+  app/controllers/index_controller.rb:13:in `auth'
+
+Rendered rescues/_trace (112.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:20:31) [GET]
+
+NoMethodError (undefined method `authorization_url' for #<OAuth::RequestToken:0x2461520>):
+  app/controllers/index_controller.rb:13:in `auth'
+
+Rendered rescues/_trace (95.3ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:26:38) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=MStOXPQcRNEGal6nhPuGtD0xv8Iq7jMWGoSxrXj2zg
+Completed in 592ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:26:44) [GET]
+  Parameters: {"oauth_token"=>"MStOXPQcRNEGal6nhPuGtD0xv8Iq7jMWGoSxrXj2zg", "oauth_verifier"=>"UYzu0RvziC2be19zY5ZYwRgbZ8uYEmPbIyZhYNWjZs"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 3416ms (View: 64, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=MStOXPQcRNEGal6nhPuGtD0xv8Iq7jMWGoSxrXj2zg&oauth_verifier=UYzu0RvziC2be19zY5ZYwRgbZ8uYEmPbIyZhYNWjZs]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:28:57) [GET]
+  Parameters: {"oauth_token"=>"MStOXPQcRNEGal6nhPuGtD0xv8Iq7jMWGoSxrXj2zg", "oauth_verifier"=>"UYzu0RvziC2be19zY5ZYwRgbZ8uYEmPbIyZhYNWjZs"}
+Redirected to http://localhost:3000/index/auth
+Completed in 1109ms (DB: 0) | 302 Found [http://localhost/index/list?oauth_token=MStOXPQcRNEGal6nhPuGtD0xv8Iq7jMWGoSxrXj2zg&oauth_verifier=UYzu0RvziC2be19zY5ZYwRgbZ8uYEmPbIyZhYNWjZs]
+
+
+Processing IndexController#auth (for 127.0.0.1 at 2010-02-13 14:28:59) [GET]
+Redirected to http://twitter.com/oauth/authorize?oauth_token=Ovc6StqxhSiMyRu1a7oomoorLMI2tvjBMOvxND4
+Completed in 773ms (DB: 0) | 302 Found [http://localhost/index/auth]
+
+
+Processing IndexController#list (for 127.0.0.1 at 2010-02-13 14:29:04) [GET]
+  Parameters: {"oauth_token"=>"Ovc6StqxhSiMyRu1a7oomoorLMI2tvjBMOvxND4", "oauth_verifier"=>"MJLVNAaWHbz5GGXq9yJ186H5nPOXwHAXnbJhiFaUe2U"}
+Rendering template within layouts/application
+Rendering index/list
+Completed in 4685ms (View: 90, DB: 0) | 200 OK [http://localhost/index/list?oauth_token=Ovc6StqxhSiMyRu1a7oomoorLMI2tvjBMOvxND4&oauth_verifier=MJLVNAaWHbz5GGXq9yJ186H5nPOXwHAXnbJhiFaUe2U]
