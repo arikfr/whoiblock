@@ -1,4 +1,4 @@
-<h2><%=@screen_name%> blocks <%=@blocking.count%> users:</h2>
+<h2><%=@screen_name%> blocks <%=@blocking.length%> users:</h2>
 <% for user in @blocking %>
     <p>
         <div style="float:left;"><%= image_tag user.profile_image_url %></div>@<%=user.screen_name%>
